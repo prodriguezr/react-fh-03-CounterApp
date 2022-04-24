@@ -1,8 +1,8 @@
 import { createRoot } from 'react-dom/client';
-import FirstApp from './FirstApp';
+import CounterApp from './CounterApp';
 
 import './index.css';
 
 const root = createRoot(document.querySelector('#root'));
 
-root.render(<FirstApp />);
+root.render(<CounterApp initialValue={2} />);
